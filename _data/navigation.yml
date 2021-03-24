@@ -36,4 +36,8 @@ infragments:
   - title: 📚 2021
     children: 
       - title: "📃 March"
-        url: /fragments/Mar-2021/
+        url: /collectfragments/March-2021
+      - title: "📃 April"
+        url: /collectfragments/Apr-2021
+      - title: "📃 May"
+        url: /collectfragments/May-2021
