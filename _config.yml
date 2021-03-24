@@ -265,7 +265,7 @@ jekyll-archives:
 
 # Collections
 collections:
-  collections-fragments:
+  collectfragments:
     output: ture
     permalink: /:collection/:path
 
@@ -314,10 +314,10 @@ defaults:
     values:
       sidebar:
         nav: "infragments"
-  # collections-fragments
+  # collectfragments
   - scope:
       path: ""
-      type: collections-fragments
+      type: collectfragments
     values:
       author_profile: true
       share: false
