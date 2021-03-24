@@ -267,7 +267,7 @@ jekyll-archives:
 collections:
   collections-fragments:
     output: ture
-    permalink: /:collection/:name
+    permalink: /:collection/:path
 
 # HTML Compression
 # - https://jch.penibelst.de/
