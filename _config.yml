@@ -302,3 +302,10 @@ defaults:
       layout: single
       classes: wide
       authour_profile: true
+  # _fragments
+  - scope:
+      path: ""
+      type: infragments
+    values:
+      sidebar:
+        nav: "infragments"
