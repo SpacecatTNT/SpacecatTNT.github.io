@@ -129,7 +129,7 @@
   img {
     max-width: 110px;
     border-radius: 50%;
-
+	
     @include breakpoint($large) {
       padding: 5px;
       border: 1px solid $border-color;
@@ -150,11 +150,12 @@
     padding-left: 0;
     padding-right: 0;
   }
-
+ 
   a {
     color: inherit;
     text-decoration: none;
   }
+
 }
 
 .author__name {
@@ -168,6 +169,7 @@
 .sidebar .author__name {
   font-family: $serif;
   font-size: $type-size-5;
+  
 }
 
 .author__bio {
