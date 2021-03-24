@@ -321,3 +321,5 @@ defaults:
     values:
       author_profile: true
       share: false
+      layout: single
+      classes: wide
