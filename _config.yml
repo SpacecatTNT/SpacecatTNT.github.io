@@ -263,6 +263,11 @@ jekyll-archives:
      category: /categories/:name/
      tag: /tags/:name/
 
+# Collections
+collections:
+  collections-fragments:
+    output: ture
+    permalink: /:collection/:name
 
 # HTML Compression
 # - https://jch.penibelst.de/
@@ -302,10 +307,17 @@ defaults:
       layout: single
       classes: wide
       authour_profile: true
-  # _fragments
+  # fragments (sidebar)
   - scope:
       path: ""
       type: infragments
     values:
       sidebar:
         nav: "infragments"
+  # collections-fragments
+  - scope:
+      path: ""
+      type: collections-fragments
+    values:
+      author_profile: true
+      share: false
