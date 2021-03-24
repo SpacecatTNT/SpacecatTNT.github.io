@@ -5,7 +5,7 @@ main:
   - title: "Categories"
     url: /categories/
   - title: "Fragments"
-    url: /fragments/
+    url: /collectfragments/Mar-2021
   - title: "Tags"
     url: /tags/
   - title: "Archives"
@@ -36,8 +36,10 @@ infragments:
   - title: 📚 2021
     children: 
       - title: "📃 March"
-        url: /collectfragments/March-2021
+        url: /collectfragments/Mar-2021
       - title: "📃 April"
         url: /collectfragments/Apr-2021
       - title: "📃 May"
         url: /collectfragments/May-2021
+      - title: "📃 Jun"
+        url: /collectfragments/Jun-2021
